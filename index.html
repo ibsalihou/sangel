@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
 
@@ -7,45 +8,46 @@
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="SANG'EL - Informations sur le don de sang au Bénin. Vérifiez votre éligibilité, préparez votre don et trouvez un centre près de chez vous.">
+          content="SANG'EL - Comprendre le don de sang, vérifier les critères d'éligibilité et trouver un centre au Bénin.">
 
     <title>SANG'EL — Donner son sang au Bénin</title>
 
-    <!-- =====================================================
-         GOOGLE FONTS
-    ====================================================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
           rel="stylesheet">
 
-    <!-- =====================================================
-         FONT AWESOME — ICONES
-    ====================================================== -->
+
+    <!-- FONT AWESOME -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!-- =====================================================
-         CSS
-    ====================================================== -->
-    <link rel="stylesheet" href="style.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="style.css">
 </head>
+
 
 <body>
 
 
-<!-- =========================================================
+<!-- =====================================================
      HEADER
-========================================================= -->
+===================================================== -->
 
-<header class="header" id="header">
+<header class="header">
 
     <div class="container header-container">
 
-        <!-- LOGO -->
-        <a href="#accueil" class="logo">
+        <a href="#accueil"
+           class="logo">
 
             <span class="logo-icon">
                 <i class="fa-solid fa-droplet"></i>
@@ -58,8 +60,8 @@
         </a>
 
 
-        <!-- NAVIGATION -->
-        <nav class="navbar" id="navbar">
+        <nav class="navbar"
+             id="navbar">
 
             <a href="#pourquoi">
                 Pourquoi donner
@@ -81,19 +83,20 @@
                 FAQ
             </a>
 
-            <a href="#eligibilite" class="nav-button">
+            <a href="#eligibilite"
+               class="nav-button">
+
                 Vérifier mon éligibilité
+
             </a>
 
         </nav>
 
 
-        <!-- MENU MOBILE -->
-        <button
-            class="menu-toggle"
-            id="menuToggle"
-            aria-label="Ouvrir le menu"
-            aria-expanded="false">
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false">
 
             <i class="fa-solid fa-bars"></i>
 
@@ -105,29 +108,27 @@
 
 
 
-<!-- =========================================================
-     HERO
-========================================================= -->
-
 <main>
 
-<section class="hero" id="accueil">
 
-    <div class="hero-background"></div>
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero"
+         id="accueil">
+
+    <div class="hero-overlay"></div>
 
     <div class="container hero-container">
 
-
-        <!-- HERO TEXT -->
         <div class="hero-content">
 
             <div class="hero-badge">
 
-                <span class="badge-dot"></span>
+                <span></span>
 
-                <span>
-                    Donner son sang au Bénin
-                </span>
+                DON DE SANG AU BÉNIN
 
             </div>
 
@@ -135,27 +136,21 @@
             <h1>
 
                 Un geste simple.
-
-                <span>
-                    Un impact immense.
-                </span>
+                <strong>Un impact immense.</strong>
 
             </h1>
 
 
             <p class="hero-description">
 
-                Vous souhaitez donner votre sang mais vous ne savez pas
-                si vous êtes éligible, où vous rendre ou comment se déroule
-                le don ?
+                Vous souhaitez donner votre sang mais vous ne savez
+                pas si vous êtes éligible, où vous rendre ou comment
+                se déroule le don ?
 
-                <strong>SANG'EL</strong> vous accompagne étape par étape,
-                simplement et sans jugement.
+                <strong>SANG'EL</strong> vous accompagne étape par étape.
 
             </p>
 
-
-            <!-- ACTIONS -->
 
             <div class="hero-actions">
 
@@ -181,44 +176,26 @@
             </div>
 
 
-            <!-- TRUST -->
-
             <div class="hero-trust">
 
-                <div class="trust-item">
+                <div>
 
                     <i class="fa-solid fa-shield-heart"></i>
 
-                    <div>
-
-                        <strong>
-                            Information fiable
-                        </strong>
-
-                        <span>
-                            Pensée pour le contexte béninois
-                        </span>
-
-                    </div>
+                    <span>
+                        Information pédagogique
+                    </span>
 
                 </div>
 
 
-                <div class="trust-item">
+                <div>
 
                     <i class="fa-solid fa-user-doctor"></i>
 
-                    <div>
-
-                        <strong>
-                            Conseil médical
-                        </strong>
-
-                        <span>
-                            Validation par un professionnel
-                        </span>
-
-                    </div>
+                    <span>
+                        Validation médicale obligatoire
+                    </span>
 
                 </div>
 
@@ -228,27 +205,19 @@
 
 
 
-        <!-- HERO IMAGE -->
-
         <div class="hero-visual">
 
-            <div class="hero-image-wrapper">
+            <div class="hero-image-card">
 
-                <!-- IMAGE PRINCIPALE -->
                 <img
                     src="sang1 (1).jpg"
-                    alt="Donneur dans un centre de collecte de sang au Bénin"
-                    class="hero-image">
+                    alt=" un don de sang">
 
 
-                <!-- CARTE IMPACT -->
-
-                <div class="floating-card card-impact">
+                <div class="hero-floating-card">
 
                     <div class="floating-icon">
-
                         <i class="fa-solid fa-heart-pulse"></i>
-
                     </div>
 
                     <div>
@@ -258,30 +227,8 @@
                         </strong>
 
                         <span>
-                            Votre don peut contribuer
-                            à sauver des vies.
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <!-- CARTE TEMPS -->
-
-                <div class="floating-card card-time">
-
-                    <i class="fa-regular fa-clock"></i>
-
-                    <div>
-
-                        <strong>
-                            Une démarche simple
-                        </strong>
-
-                        <span>
-                            Préparez votre visite
-                            en quelques étapes.
+                            Chaque don contribue à renforcer
+                            les réserves de sang.
                         </span>
 
                     </div>
@@ -298,22 +245,17 @@
 
 
 
-<!-- =========================================================
-     QUICK INFORMATION
-========================================================= -->
+<!-- =====================================================
+     QUICK INFO
+===================================================== -->
 
 <section class="quick-info">
 
-    <div class="container quick-info-grid">
-
+    <div class="container quick-grid">
 
         <div class="quick-item">
 
-            <div class="quick-icon">
-
-                <i class="fa-solid fa-user-check"></i>
-
-            </div>
+            <i class="fa-solid fa-user-check"></i>
 
             <div>
 
@@ -322,7 +264,7 @@
                 </strong>
 
                 <span>
-                    Critère d'âge simplifié
+                    Critère simplifié
                 </span>
 
             </div>
@@ -332,20 +274,16 @@
 
         <div class="quick-item">
 
-            <div class="quick-icon">
-
-                <i class="fa-solid fa-weight-scale"></i>
-
-            </div>
+            <i class="fa-solid fa-weight-scale"></i>
 
             <div>
 
                 <strong>
-                    Minimum 50 kg
+                    50 kg minimum
                 </strong>
 
                 <span>
-                    Critère de poids
+                    Critère simplifié
                 </span>
 
             </div>
@@ -355,20 +293,35 @@
 
         <div class="quick-item">
 
-            <div class="quick-icon">
-
-                <i class="fa-solid fa-location-dot"></i>
-
-            </div>
+            <i class="fa-solid fa-location-dot"></i>
 
             <div>
 
                 <strong>
-                    Partout au Bénin
+                    Plusieurs villes
                 </strong>
 
                 <span>
-                    Explorez les centres disponibles
+                    Au Bénin
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="quick-item">
+
+            <i class="fa-solid fa-stethoscope"></i>
+
+            <div>
+
+                <strong>
+                    Avis médical
+                </strong>
+
+                <span>
+                    Toujours nécessaire
                 </span>
 
             </div>
@@ -381,83 +334,53 @@
 
 
 
-<!-- =========================================================
+<!-- =====================================================
      POURQUOI DONNER
-========================================================= -->
+===================================================== -->
 
-<section class="section why-section"
+<section class="section"
          id="pourquoi">
 
     <div class="container">
 
-
         <div class="section-heading">
 
             <div class="section-label">
-
                 <span></span>
-
                 POURQUOI DONNER ?
-
             </div>
 
-
             <h2>
-
                 Votre sang peut faire
                 <span>la différence.</span>
-
             </h2>
 
-
             <p>
-
-                Au Bénin, le don de sang joue un rôle essentiel dans
-                la prise en charge des patients nécessitant une
-                transfusion.
-
+                Le don de sang contribue à la prise en charge
+                de nombreuses situations médicales nécessitant
+                des produits sanguins.
             </p>
 
         </div>
 
 
+        <div class="why-grid">
 
-        <div class="impact-layout">
-
-
-            <!-- IMAGE -->
-
-            <div class="impact-image">
+            <div class="why-image">
 
                 <img
                     src="sang1 (2).jpg"
-                    alt="Don de sang au Bénin">
-
-                <div class="image-caption">
-
-                    <i class="fa-solid fa-heart"></i>
-
-                    <span>
-                        La solidarité sauve des vies
-                    </span>
-
-                </div>
+                    alt="Don de sang">
 
             </div>
 
 
+            <div class="why-cards">
 
-            <!-- IMPACT CARDS -->
+                <article class="info-card">
 
-            <div class="impact-content">
-
-
-                <article class="impact-card">
-
-                    <div class="impact-number">
-
+                    <div class="card-icon">
                         <i class="fa-solid fa-hospital"></i>
-
                     </div>
 
                     <div>
@@ -467,9 +390,9 @@
                         </h3>
 
                         <p>
-                            Les réserves de sang permettent aux équipes
-                            médicales de mieux répondre aux besoins
-                            des patients.
+                            Des réserves disponibles permettent aux
+                            équipes médicales de mieux répondre aux
+                            besoins des patients.
                         </p>
 
                     </div>
@@ -477,13 +400,10 @@
                 </article>
 
 
+                <article class="info-card">
 
-                <article class="impact-card">
-
-                    <div class="impact-number">
-
-                        <i class="fa-solid fa-person-breastfeeding"></i>
-
+                    <div class="card-icon">
+                        <i class="fa-solid fa-kit-medical"></i>
                     </div>
 
                     <div>
@@ -494,7 +414,7 @@
 
                         <p>
                             Certaines situations médicales nécessitent
-                            rapidement des produits sanguins disponibles.
+                            des produits sanguins disponibles rapidement.
                         </p>
 
                     </div>
@@ -502,13 +422,10 @@
                 </article>
 
 
+                <article class="info-card">
 
-                <article class="impact-card">
-
-                    <div class="impact-number">
-
+                    <div class="card-icon">
                         <i class="fa-solid fa-people-group"></i>
-
                     </div>
 
                     <div>
@@ -518,15 +435,13 @@
                         </h3>
 
                         <p>
-                            Donner son sang est une démarche volontaire
-                            qui contribue à la solidarité au sein
-                            de la communauté.
+                            Le don volontaire participe à un effort
+                            collectif au bénéfice de la communauté.
                         </p>
 
                     </div>
 
                 </article>
-
 
             </div>
 
@@ -538,15 +453,14 @@
 
 
 
-<!-- =========================================================
-     TEST D'ÉLIGIBILITÉ
-========================================================= -->
+<!-- =====================================================
+     ELIGIBILITE
+===================================================== -->
 
 <section class="section eligibility-section"
          id="eligibilite">
 
     <div class="container">
-
 
         <div class="section-heading centered">
 
@@ -560,24 +474,17 @@
 
             </div>
 
-
             <h2>
-
                 Puis-je donner
                 <span>mon sang ?</span>
-
             </h2>
 
-
             <p>
-
-                Répondez à quelques questions pour obtenir une
-                première indication.
-
+                Répondez aux questions pour obtenir une première
+                indication basée sur les règles simplifiées du challenge.
             </p>
 
         </div>
-
 
 
         <div class="eligibility-layout">
@@ -585,15 +492,12 @@
 
             <!-- FORMULAIRE -->
 
-            <div class="eligibility-form-card">
+            <div class="eligibility-card">
 
-
-                <div class="form-card-header">
+                <div class="form-header">
 
                     <div class="form-icon">
-
                         <i class="fa-solid fa-clipboard-check"></i>
-
                     </div>
 
                     <div>
@@ -603,13 +507,12 @@
                         </h3>
 
                         <p>
-                            Cela ne remplace pas un avis médical.
+                            Quelques informations suffisent.
                         </p>
 
                     </div>
 
                 </div>
-
 
 
                 <form id="eligibilityForm">
@@ -623,14 +526,13 @@
                             Quel âge avez-vous ?
                         </label>
 
-                        <div class="input-wrapper">
+                        <div class="input-box">
 
-                            <i class="fa-solid fa-cake-candles"></i>
+                            <i class="fa-solid fa-user"></i>
 
                             <input
                                 type="number"
                                 id="age"
-                                name="age"
                                 min="1"
                                 max="120"
                                 placeholder="Ex : 25"
@@ -642,13 +544,7 @@
 
                         </div>
 
-                        <small class="form-help">
-                            Le critère simplifié du challenge est
-                            compris entre 18 et 65 ans.
-                        </small>
-
                     </div>
-
 
 
                     <!-- POIDS -->
@@ -659,14 +555,13 @@
                             Quel est votre poids ?
                         </label>
 
-                        <div class="input-wrapper">
+                        <div class="input-box">
 
                             <i class="fa-solid fa-weight-scale"></i>
 
                             <input
                                 type="number"
                                 id="weight"
-                                name="weight"
                                 min="1"
                                 max="300"
                                 step="0.1"
@@ -679,13 +574,7 @@
 
                         </div>
 
-                        <small class="form-help">
-                            Le poids minimum retenu pour ce test
-                            est de 50 kg.
-                        </small>
-
                     </div>
-
 
 
                     <!-- SEXE -->
@@ -696,10 +585,9 @@
                             Vous êtes :
                         </label>
 
-                        <div class="radio-grid">
+                        <div class="gender-grid">
 
-
-                            <label class="radio-option">
+                            <label class="gender-option">
 
                                 <input
                                     type="radio"
@@ -707,40 +595,31 @@
                                     value="homme"
                                     required>
 
-                                <span class="radio-content">
-
+                                <span>
                                     <i class="fa-solid fa-person"></i>
-
                                     Homme
-
                                 </span>
 
                             </label>
 
 
-
-                            <label class="radio-option">
+                            <label class="gender-option">
 
                                 <input
                                     type="radio"
                                     name="gender"
                                     value="femme">
 
-                                <span class="radio-content">
-
+                                <span>
                                     <i class="fa-solid fa-person-dress"></i>
-
                                     Femme
-
                                 </span>
 
                             </label>
 
-
                         </div>
 
                     </div>
-
 
 
                     <!-- DERNIER DON -->
@@ -748,36 +627,28 @@
                     <div class="form-group">
 
                         <label for="lastDonation">
-
-                            Date de votre dernier don
-
+                            Date du dernier don
                         </label>
 
-                        <div class="input-wrapper">
+                        <div class="input-box">
 
                             <i class="fa-regular fa-calendar"></i>
 
                             <input
                                 type="date"
-                                id="lastDonation"
-                                name="lastDonation">
+                                id="lastDonation">
 
                         </div>
 
-                        <small class="form-help">
-                            Si vous n'avez jamais donné, laissez
-                            ce champ vide.
+                        <small>
+                            Laissez vide si vous n'avez jamais donné.
                         </small>
 
                     </div>
 
 
-
-                    <!-- SUBMIT -->
-
-                    <button
-                        type="submit"
-                        class="btn btn-primary btn-full">
+                    <button type="submit"
+                            class="btn btn-primary full-btn">
 
                         <i class="fa-solid fa-magnifying-glass"></i>
 
@@ -785,23 +656,18 @@
 
                     </button>
 
-
                 </form>
 
-
-                <!-- AVERTISSEMENT -->
 
                 <div class="medical-warning">
 
                     <i class="fa-solid fa-triangle-exclamation"></i>
 
                     <p>
-
-                        Ce test fournit uniquement une indication
-                        générale. Seul un entretien médical réalisé
-                        par un professionnel peut confirmer votre
-                        aptitude au don.
-
+                        Ce test est uniquement indicatif.
+                        Seul un entretien médical réalisé par
+                        un professionnel de santé peut confirmer
+                        votre aptitude au don.
                     </p>
 
                 </div>
@@ -812,16 +678,13 @@
 
             <!-- RESULTAT -->
 
-            <div class="eligibility-result"
-                 id="eligibilityResult">
+            <div class="result-card"
+                 id="resultCard">
 
+                <div class="result-default"
+                     id="resultDefault">
 
-                <!-- ETAT INITIAL -->
-
-                <div class="result-placeholder"
-                     id="resultPlaceholder">
-
-                    <div class="result-placeholder-icon">
+                    <div class="result-icon">
 
                         <i class="fa-solid fa-stethoscope"></i>
 
@@ -832,40 +695,36 @@
                     </h3>
 
                     <p>
-
-                        Complétez le formulaire pour obtenir une
-                        première indication sur votre situation.
-
+                        Complétez le formulaire pour connaître
+                        votre situation selon les critères
+                        simplifiés du challenge.
                     </p>
 
                 </div>
 
 
-                <!-- RESULTAT JS -->
+                <div class="result-message"
+                     id="resultMessage">
 
-                <div class="result-content"
-                     id="resultContent"
-                     hidden>
-
-                    <div class="result-icon">
+                    <div class="result-icon"
+                         id="resultIcon">
 
                         <i class="fa-solid fa-circle-check"></i>
 
                     </div>
 
-                    <span class="result-status">
-                        Résultat du test
+                    <span class="result-label"
+                          id="resultLabel">
+                        Résultat
                     </span>
 
                     <h3 id="resultTitle">
-                        Vous semblez éligible
+                        —
                     </h3>
 
-                    <p id="resultMessage">
-                        Votre situation respecte les critères
-                        simplifiés du test.
+                    <p id="resultText">
+                        —
                     </p>
-
 
                     <div class="next-date"
                          id="nextDate"
@@ -899,189 +758,142 @@
 
 
 
-<!-- =========================================================
-     DÉROULEMENT DU DON
-========================================================= -->
+<!-- =====================================================
+     DEROULEMENT
+===================================================== -->
 
-<section class="section steps-section"
+<section class="section"
          id="deroulement">
 
     <div class="container">
-
 
         <div class="section-heading centered">
 
             <div class="section-label">
 
                 <span></span>
-
                 LE DÉROULEMENT
-
                 <span></span>
 
             </div>
 
-
             <h2>
-
                 Comment se passe
                 <span>un don ?</span>
-
             </h2>
 
-
             <p>
-
-                Une expérience encadrée par des professionnels,
-                depuis votre arrivée jusqu'à votre départ.
-
+                Une démarche encadrée par des professionnels.
             </p>
 
         </div>
 
 
+        <div class="steps-grid">
 
-        <div class="steps-timeline">
 
-
-            <!-- ETAPE 1 -->
-
-            <article class="step">
+            <article class="step-card">
 
                 <span class="step-number">
                     01
                 </span>
 
                 <div class="step-icon">
-
                     <i class="fa-solid fa-id-card"></i>
-
                 </div>
 
-                <div class="step-content">
+                <span>
+                    ACCUEIL
+                </span>
 
-                    <span>
-                        Accueil
-                    </span>
+                <h3>
+                    Enregistrement
+                </h3>
 
-                    <h3>
-                        Enregistrement
-                    </h3>
-
-                    <p>
-                        Présentez-vous au centre avec les documents
-                        demandés et indiquez votre souhait de donner.
-                    </p>
-
-                </div>
+                <p>
+                    Présentez-vous au centre et effectuez
+                    les formalités demandées.
+                </p>
 
             </article>
 
 
-
-            <!-- ETAPE 2 -->
-
-            <article class="step">
+            <article class="step-card">
 
                 <span class="step-number">
                     02
                 </span>
 
                 <div class="step-icon">
-
                     <i class="fa-solid fa-user-doctor"></i>
-
                 </div>
 
-                <div class="step-content">
+                <span>
+                    MÉDICAL
+                </span>
 
-                    <span>
-                        Étape médicale
-                    </span>
+                <h3>
+                    Entretien
+                </h3>
 
-                    <h3>
-                        Entretien
-                    </h3>
-
-                    <p>
-                        Un professionnel de santé échange avec vous
-                        et vérifie votre aptitude au don.
-                    </p>
-
-                </div>
+                <p>
+                    Un professionnel de santé échange avec
+                    vous et vérifie votre aptitude.
+                </p>
 
             </article>
 
 
-
-            <!-- ETAPE 3 -->
-
-            <article class="step">
+            <article class="step-card">
 
                 <span class="step-number">
                     03
                 </span>
 
                 <div class="step-icon">
-
                     <i class="fa-solid fa-droplet"></i>
-
                 </div>
 
-                <div class="step-content">
+                <span>
+                    DON
+                </span>
 
-                    <span>
-                        Don
-                    </span>
+                <h3>
+                    Prélèvement
+                </h3>
 
-                    <h3>
-                        Prélèvement
-                    </h3>
-
-                    <p>
-                        Le prélèvement est réalisé dans un environnement
-                        adapté et sous la surveillance du personnel.
-                    </p>
-
-                </div>
+                <p>
+                    Le prélèvement est effectué dans des
+                    conditions adaptées et surveillées.
+                </p>
 
             </article>
 
 
-
-            <!-- ETAPE 4 -->
-
-            <article class="step">
+            <article class="step-card">
 
                 <span class="step-number">
                     04
                 </span>
 
                 <div class="step-icon">
-
                     <i class="fa-solid fa-mug-hot"></i>
-
                 </div>
 
-                <div class="step-content">
+                <span>
+                    APRÈS
+                </span>
 
-                    <span>
-                        Après le don
-                    </span>
+                <h3>
+                    Repos
+                </h3>
 
-                    <h3>
-                        Repos
-                    </h3>
-
-                    <p>
-                        Prenez quelques minutes pour vous reposer,
-                        vous hydrater et suivre les conseils donnés.
-                    </p>
-
-                </div>
+                <p>
+                    Prenez le temps de vous reposer,
+                    vous hydrater et suivre les conseils reçus.
+                </p>
 
             </article>
-
 
         </div>
 
@@ -1091,54 +903,38 @@
 
 
 
-<!-- =========================================================
-     PRÉPARATION
-========================================================= -->
+<!-- =====================================================
+     PREPARATION
+===================================================== -->
 
-<section class="section preparation-section"
+<section class="section preparation"
          id="preparation">
 
-    <div class="container preparation-layout">
+    <div class="container preparation-grid">
 
-
-        <div class="preparation-content">
+        <div>
 
             <div class="section-label">
-
                 <span></span>
-
-                AVANT & APRÈS LE DON
-
+                PRÉPARATION
             </div>
 
-
             <h2>
-
-                Préparez-vous
+                Préparez votre don
                 <span>sereinement.</span>
-
             </h2>
 
-
-            <p>
-
-                Quelques gestes simples peuvent vous aider à
-                vivre votre expérience dans de bonnes conditions.
-
+            <p class="section-text">
+                Quelques habitudes simples peuvent vous aider
+                avant et après votre passage au centre.
             </p>
-
 
 
             <div class="preparation-list">
 
+                <div class="preparation-item">
 
-                <article class="preparation-item">
-
-                    <div class="prep-icon">
-
-                        <i class="fa-solid fa-glass-water"></i>
-
-                    </div>
+                    <i class="fa-solid fa-glass-water"></i>
 
                     <div>
 
@@ -1147,23 +943,17 @@
                         </h3>
 
                         <p>
-                            Buvez suffisamment d'eau avant et après
-                            votre passage.
+                            Buvez suffisamment d'eau.
                         </p>
 
                     </div>
 
-                </article>
+                </div>
 
 
+                <div class="preparation-item">
 
-                <article class="preparation-item">
-
-                    <div class="prep-icon">
-
-                        <i class="fa-solid fa-utensils"></i>
-
-                    </div>
+                    <i class="fa-solid fa-utensils"></i>
 
                     <div>
 
@@ -1172,22 +962,17 @@
                         </h3>
 
                         <p>
-                            Prenez un repas équilibré avant votre don.
+                            Prenez un repas adapté avant le don.
                         </p>
 
                     </div>
 
-                </article>
+                </div>
 
 
+                <div class="preparation-item">
 
-                <article class="preparation-item">
-
-                    <div class="prep-icon">
-
-                        <i class="fa-solid fa-id-card"></i>
-
-                    </div>
+                    <i class="fa-solid fa-id-card"></i>
 
                     <div>
 
@@ -1196,23 +981,17 @@
                         </h3>
 
                         <p>
-                            Munissez-vous des documents nécessaires
-                            demandés par le centre.
+                            Vérifiez les documents demandés par le centre.
                         </p>
 
                     </div>
 
-                </article>
+                </div>
 
 
+                <div class="preparation-item">
 
-                <article class="preparation-item">
-
-                    <div class="prep-icon">
-
-                        <i class="fa-solid fa-bed"></i>
-
-                    </div>
+                    <i class="fa-solid fa-bed"></i>
 
                     <div>
 
@@ -1226,39 +1005,18 @@
 
                     </div>
 
-                </article>
-
+                </div>
 
             </div>
 
         </div>
 
 
-
         <div class="preparation-image">
 
             <img
                 src="sang1 (3).jpg"
-                alt="Préparation avant un don de sang">
-
-            <div class="preparation-overlay">
-
-                <i class="fa-solid fa-heart-pulse"></i>
-
-                <div>
-
-                    <strong>
-                        Votre bien-être compte
-                    </strong>
-
-                    <span>
-                        Le personnel vous accompagne tout au long
-                        de la démarche.
-                    </span>
-
-                </div>
-
-            </div>
+                alt="santé">
 
         </div>
 
@@ -1268,71 +1026,51 @@
 
 
 
-<!-- =========================================================
-     CENTRES DE DON AU BÉNIN
-========================================================= -->
+<!-- =====================================================
+     CENTRES
+===================================================== -->
 
 <section class="section centers-section"
          id="centres">
 
     <div class="container">
 
-
         <div class="section-heading">
 
             <div class="section-label">
-
                 <span></span>
-
                 OÙ DONNER AU BÉNIN ?
-
             </div>
 
-
             <h2>
-
                 Trouvez un centre
                 <span>près de vous.</span>
-
             </h2>
 
-
             <p>
-
-                Recherchez un centre selon votre ville,
-                le type de don accepté ou sa disponibilité.
-
+                Recherchez par ville, type de don ou disponibilité.
             </p>
 
         </div>
 
 
-
         <!-- FILTRES -->
 
-        <div class="centers-filters">
+        <div class="filters">
 
-
-            <!-- RECHERCHE -->
-
-            <div class="search-box">
+            <div class="search-input">
 
                 <i class="fa-solid fa-magnifying-glass"></i>
 
                 <input
                     type="search"
-                    id="centerSearch"
-                    placeholder="Rechercher un centre, quartier ou ville..."
-                    aria-label="Rechercher un centre">
+                    id="searchCenter"
+                    placeholder="Rechercher un centre ou une ville...">
 
             </div>
 
 
-
-            <!-- VILLE -->
-
-            <select id="cityFilter"
-                    aria-label="Filtrer par ville">
+            <select id="cityFilter">
 
                 <option value="">
                     Toutes les villes
@@ -1373,11 +1111,7 @@
             </select>
 
 
-
-            <!-- TYPE DON -->
-
-            <select id="donationFilter"
-                    aria-label="Filtrer par type de don">
+            <select id="donationFilter">
 
                 <option value="">
                     Tous les dons
@@ -1398,11 +1132,7 @@
             </select>
 
 
-
-            <!-- DISPONIBILITE -->
-
-            <select id="statusFilter"
-                    aria-label="Filtrer par disponibilité">
+            <select id="statusFilter">
 
                 <option value="">
                     Tous les statuts
@@ -1421,18 +1151,14 @@
         </div>
 
 
+        <div class="centers-toolbar">
 
-        <!-- BARRE RESULTATS -->
-
-        <div class="centers-topbar">
-
-            <span id="centersCount">
+            <strong id="centerCount">
                 8 centres
-            </span>
+            </strong>
 
-            <button
-                class="clear-filters"
-                id="clearFilters">
+            <button id="clearFilters"
+                    class="clear-btn">
 
                 <i class="fa-solid fa-rotate-left"></i>
 
@@ -1443,36 +1169,22 @@
         </div>
 
 
-
-        <!-- CARTES GÉNÉRÉES PAR JAVASCRIPT -->
-
         <div class="centers-grid"
              id="centersGrid">
-
-            <!-- Les centres seront injectés ici par centers.js -->
-
         </div>
 
 
-
-        <!-- ABSENCE DE RÉSULTAT -->
-
         <div class="no-results"
-             id="noResults"
-             hidden>
+             id="noResults">
 
-            <div class="no-results-icon">
-
-                <i class="fa-solid fa-location-dot"></i>
-
-            </div>
+            <i class="fa-solid fa-location-dot"></i>
 
             <h3>
                 Aucun centre trouvé
             </h3>
 
             <p>
-                Essayez de modifier vos critères de recherche.
+                Modifiez vos critères de recherche.
             </p>
 
         </div>
@@ -1483,466 +1195,129 @@
 
 
 
-<!-- =========================================================
-     ÉTAT DES RÉSERVES
-========================================================= -->
+<!-- =====================================================
+     RESERVES
+===================================================== -->
 
-<section class="section reserves-section"
+<section class="section reserves"
          id="reserves">
 
-    <div class="container reserves-layout">
-
-
-        <div class="reserves-intro">
-
-            <div class="section-label">
-
-                <span></span>
-
-                ÉTAT DES RÉSERVES
-
-            </div>
-
-
-            <h2>
-
-                Les besoins
-                <span>évoluent.</span>
-
-            </h2>
-
-
-            <p>
-
-                Les niveaux présentés ici sont des données de
-                démonstration pour le prototype. Dans une version
-                finale, ils devront être connectés aux données
-                officielles disponibles.
-
-            </p>
-
-
-            <div class="reserve-note">
-
-                <i class="fa-solid fa-circle-info"></i>
-
-                <span>
-                    Les besoins peuvent évoluer rapidement.
-                    Vérifiez toujours les informations auprès
-                    du centre avant de vous déplacer.
-                </span>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="blood-groups">
-
-
-            <!-- A+ -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    A+
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 68%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot medium"></span>
-
-                    Besoin modéré
-
-                </div>
-
-            </article>
-
-
-
-            <!-- A- -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    A-
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 38%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot low"></span>
-
-                    Besoin élevé
-
-                </div>
-
-            </article>
-
-
-
-            <!-- B+ -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    B+
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 75%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot high"></span>
-
-                    Réserve correcte
-
-                </div>
-
-            </article>
-
-
-
-            <!-- O+ -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    O+
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 42%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot low"></span>
-
-                    Besoin prioritaire
-
-                </div>
-
-            </article>
-
-
-
-            <!-- O- -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    O-
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 32%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot low"></span>
-
-                    Besoin élevé
-
-                </div>
-
-            </article>
-
-
-
-            <!-- AB+ -->
-
-            <article class="blood-group-card">
-
-                <div class="blood-type">
-                    AB+
-                </div>
-
-                <div class="blood-bar">
-
-                    <span style="width: 80%;"></span>
-
-                </div>
-
-                <div class="blood-status">
-
-                    <span class="status-dot high"></span>
-
-                    Réserve correcte
-
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     FAQ
-========================================================= -->
-
-<section class="section faq-section"
-         id="faq">
-
     <div class="container">
-
 
         <div class="section-heading centered">
 
             <div class="section-label">
 
                 <span></span>
-
-                FAQ
-
+                ÉTAT DES RÉSERVES
                 <span></span>
 
             </div>
 
-
             <h2>
-
-                Vos questions,
-                <span>nos réponses.</span>
-
+                Les besoins
+                <span>évoluent.</span>
             </h2>
 
-
             <p>
-
-                Les principales questions que peuvent se poser
-                les nouveaux donneurs.
-
+                Données de démonstration pour le prototype.
+                Elles devront être remplacées par des données
+                officielles dans une version finale.
             </p>
 
         </div>
 
 
+        <div class="blood-grid">
 
-        <div class="faq-container">
+            <div class="blood-card">
 
+                <strong>A+</strong>
 
-            <!-- FAQ 1 -->
-
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Est-ce que donner son sang fait mal ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Une petite gêne peut être ressentie au moment
-                        de la piqûre. Le prélèvement est réalisé par
-                        du personnel formé dans des conditions adaptées.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:68%"></span>
                 </div>
+
+                <small>
+                    Besoin modéré
+                </small>
 
             </div>
 
 
+            <div class="blood-card">
 
-            <!-- FAQ 2 -->
+                <strong>A-</strong>
 
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Combien de temps dure le don ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        La durée totale dépend notamment de l'accueil,
-                        de l'entretien médical et du prélèvement.
-                        Prévoyez suffisamment de temps pour l'ensemble
-                        de votre passage au centre.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:38%"></span>
                 </div>
+
+                <small>
+                    Besoin élevé
+                </small>
 
             </div>
 
 
+            <div class="blood-card">
 
-            <!-- FAQ 3 -->
+                <strong>B+</strong>
 
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Dois-je être à jeun pour donner mon sang ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Il est généralement préférable de ne pas se
-                        présenter à jeun. Prenez un repas normal et
-                        hydratez-vous, sauf indication contraire d'un
-                        professionnel de santé.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:75%"></span>
                 </div>
+
+                <small>
+                    Réserve correcte
+                </small>
 
             </div>
 
 
+            <div class="blood-card">
 
-            <!-- FAQ 4 -->
+                <strong>O+</strong>
 
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Puis-je donner si je n'ai jamais donné auparavant ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Oui. Le premier don commence par un accueil et
-                        un entretien permettant au professionnel de santé
-                        de déterminer si vous pouvez donner.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:42%"></span>
                 </div>
+
+                <small>
+                    Besoin prioritaire
+                </small>
 
             </div>
 
 
+            <div class="blood-card">
 
-            <!-- FAQ 5 -->
+                <strong>O-</strong>
 
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Comment savoir si je peux réellement donner ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        Le simulateur de cette page donne uniquement
-                        une première indication basée sur des critères
-                        simplifiés. Seul l'entretien médical professionnel
-                        peut confirmer votre aptitude au don.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:32%"></span>
                 </div>
+
+                <small>
+                    Besoin élevé
+                </small>
 
             </div>
 
 
+            <div class="blood-card">
 
-            <!-- FAQ 6 -->
+                <strong>AB+</strong>
 
-            <div class="faq-item">
-
-                <button
-                    class="faq-question"
-                    aria-expanded="false">
-
-                    <span>
-                        Où puis-je donner au Bénin ?
-                    </span>
-
-                    <i class="fa-solid fa-plus"></i>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-
-                        SANG'EL permet de rechercher les centres
-                        répertoriés dans plusieurs villes du Bénin,
-                        notamment Cotonou, Abomey-Calavi, Porto-Novo,
-                        Ouidah, Abomey, Bohicon, Parakou et Natitingou.
-
-                    </p>
-
+                <div class="blood-bar">
+                    <span style="width:80%"></span>
                 </div>
 
-            </div>
+                <small>
+                    Réserve correcte
+                </small>
 
+            </div>
 
         </div>
 
@@ -1952,36 +1327,179 @@
 
 
 
-<!-- =========================================================
-     CTA FINAL
-========================================================= -->
+<!-- =====================================================
+     FAQ
+===================================================== -->
 
-<section class="final-cta">
+<section class="section faq-section"
+         id="faq">
 
-    <div class="container final-cta-content">
+    <div class="container">
 
+        <div class="section-heading centered">
 
-        <div class="final-cta-icon">
+            <div class="section-label">
 
-            <i class="fa-solid fa-droplet"></i>
+                <span></span>
+                FAQ
+                <span></span>
+
+            </div>
+
+            <h2>
+                Vos questions,
+                <span>nos réponses.</span>
+            </h2>
 
         </div>
 
+
+        <div class="faq-container">
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Est-ce que donner son sang fait mal ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    Une petite gêne peut être ressentie au moment
+                    de la piqûre. Le prélèvement est réalisé par
+                    du personnel formé dans des conditions adaptées.
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Combien de temps dure le don ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    La durée totale dépend de l'accueil, de l'entretien
+                    médical, du prélèvement et du temps de repos.
+                    Prévoyez suffisamment de temps pour votre passage.
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Dois-je être à jeun ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    Il est généralement préférable de ne pas se présenter
+                    à jeun. Mangez normalement et hydratez-vous, sauf
+                    indication contraire d'un professionnel de santé.
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Puis-je donner si c'est mon premier don ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    Oui, un premier don commence par l'accueil et
+                    l'entretien médical permettant au professionnel
+                    de santé d'évaluer votre aptitude.
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Comment savoir si je peux réellement donner ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    Le simulateur donne uniquement une indication
+                    basée sur des critères simplifiés. Seul un
+                    entretien médical professionnel peut confirmer
+                    votre aptitude.
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+
+                    Où puis-je donner au Bénin ?
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </summary>
+
+                <div>
+                    La plateforme présente plusieurs zones du Bénin
+                    afin de faciliter la recherche d'un lieu de don.
+                    Vérifiez toujours les informations auprès du
+                    centre avant de vous déplacer.
+                </div>
+
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="final-cta">
+
+    <div class="container">
+
+        <i class="fa-solid fa-droplet"></i>
 
         <h2>
             Prêt à faire un geste utile ?
         </h2>
 
-
         <p>
-
-            Vérifiez votre éligibilité ou trouvez un centre
-            de don près de vous au Bénin.
-
+            Vérifiez votre situation ou recherchez un centre
+            de don au Bénin.
         </p>
 
-
-        <div class="final-actions">
+        <div class="hero-actions">
 
             <a href="#eligibilite"
                class="btn btn-white">
@@ -1991,7 +1509,6 @@
                 Tester mon éligibilité
 
             </a>
-
 
             <a href="#centres"
                class="btn btn-outline-white">
@@ -2012,148 +1529,113 @@
 
 
 
-<!-- =========================================================
+<!-- =====================================================
      FOOTER
-========================================================= -->
+===================================================== -->
 
 <footer class="footer">
 
-    <div class="container">
+    <div class="container footer-grid">
 
+        <div>
 
-        <div class="footer-grid">
+            <a href="#accueil"
+               class="logo">
 
+                <span class="logo-icon">
+                    <i class="fa-solid fa-droplet"></i>
+                </span>
 
-            <!-- BRAND -->
+                <span class="logo-text">
+                    SANG<span>'EL</span>
+                </span>
 
-            <div class="footer-brand">
+            </a>
 
-                <a href="#accueil"
-                   class="logo footer-logo">
-
-                    <span class="logo-icon">
-
-                        <i class="fa-solid fa-droplet"></i>
-
-                    </span>
-
-                    <span class="logo-text">
-
-                        SANG<span>'EL</span>
-
-                    </span>
-
-                </a>
-
-
-                <p>
-
-                    Une expérience digitale informative pour aider
-                    les futurs donneurs à mieux comprendre le don
-                    de sang et à trouver un centre au Bénin.
-
-                </p>
-
-            </div>
-
-
-
-            <!-- NAVIGATION -->
-
-            <div class="footer-column">
-
-                <h3>
-                    Navigation
-                </h3>
-
-                <a href="#pourquoi">
-                    Pourquoi donner
-                </a>
-
-                <a href="#eligibilite">
-                    Éligibilité
-                </a>
-
-                <a href="#deroulement">
-                    Déroulement
-                </a>
-
-                <a href="#centres">
-                    Centres
-                </a>
-
-            </div>
-
-
-
-            <!-- VILLES -->
-
-            <div class="footer-column">
-
-                <h3>
-                    Zones couvertes
-                </h3>
-
-                <a href="#centres">
-                    Cotonou
-                </a>
-
-                <a href="#centres">
-                    Abomey-Calavi
-                </a>
-
-                <a href="#centres">
-                    Porto-Novo
-                </a>
-
-                <a href="#centres">
-                    Parakou
-                </a>
-
-            </div>
-
-
-
-            <!-- INFORMATION -->
-
-            <div class="footer-column">
-
-                <h3>
-                    Important
-                </h3>
-
-                <p>
-
-                    Les informations de cette plateforme sont
-                    présentées à titre informatif.
-
-                </p>
-
-                <p>
-
-                    L'aptitude au don doit toujours être confirmée
-                    par un professionnel de santé.
-
-                </p>
-
-            </div>
-
+            <p>
+                Une plateforme informative dédiée au don
+                de sang au Bénin.
+            </p>
 
         </div>
 
 
+        <div>
 
-        <div class="footer-bottom">
+            <h3>
+                Navigation
+            </h3>
 
-            <span>
-                © 2026 SANG'EL — Projet Figma to Code Challenge
-            </span>
+            <a href="#pourquoi">
+                Pourquoi donner
+            </a>
 
-            <span>
-                Prototype informatif — Bénin
-            </span>
+            <a href="#eligibilite">
+                Éligibilité
+            </a>
+
+            <a href="#deroulement">
+                Déroulement
+            </a>
+
+            <a href="#centres">
+                Centres
+            </a>
 
         </div>
+
+
+        <div>
+
+            <h3>
+                Zones
+            </h3>
+
+            <a href="#centres">
+                Cotonou
+            </a>
+
+            <a href="#centres">
+                Abomey-Calavi
+            </a>
+
+            <a href="#centres">
+                Porto-Novo
+            </a>
+
+            <a href="#centres">
+                Parakou
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Important
+            </h3>
+
+            <p>
+                Les informations sont présentées à titre
+                informatif. L'aptitude au don doit être
+                confirmée par un professionnel de santé.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 SANG'EL
+        </span>
+
+        <span>
+            Prototype Figma to Code Challenge
+        </span>
 
     </div>
 
@@ -2161,14 +1643,9 @@
 
 
 
-<!-- =========================================================
-     BOUTON RETOUR EN HAUT
-========================================================= -->
-
-<button
-    class="back-to-top"
-    id="backToTop"
-    aria-label="Retour en haut">
+<button class="back-top"
+        id="backTop"
+        aria-label="Retour en haut">
 
     <i class="fa-solid fa-arrow-up"></i>
 
@@ -2176,14 +1653,9 @@
 
 
 
-<!-- =========================================================
-     JAVASCRIPT
-========================================================= -->
+<!-- JAVASCRIPT -->
 
-<script src="js/centers.js"></script>
-
-<script src="js/script.js"></script>
-
+<script src="script.js"></script>
 
 </body>
 </html>
